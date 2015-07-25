@@ -1,0 +1,112 @@
+##### Code Book for Getting and Cleaning Data Project 2 #######
+
+From data set: averages.txt
+
+[1] Subject      - integer for subject number: 1:30             
+[2] Activity     - factor variable 6 levels: 
+                        1: LAYING
+                        2: SITTING
+                        3: STANDING
+                        4: WALKING
+                        5: WALKING_DOWNSTAIRS
+                        6: WALKING_UPSTAIRS             
+
+[3:81] Numeric Variables: 
+        Time.x.x.x.x - Time Domain
+        Freq.x.x.x.x - Frequency Domain
+    
+        x.Body.x.x - Body signal
+        x.Gravity.x.x.x - Gravity signal
+    
+        x.x.Acc.x.x - Acceleration
+        x.x.AccJerk.x.x - Acceleration Speed
+    
+        x.x.Gyro.x.x - Angular Acceleration
+        x.x.GyroJerk - Angular Speed
+    
+        x.x.xxMag.x - Magnitude
+    
+        x.x.x.x.X, x.x.x.x.Y, x.x.x.x.Z - 3 axis X,Y,Z signals
+    
+        x.x.x.Mean.x - Mean
+        x.x.x.Sd.x - Standard Deviation
+    
+Time.Body.Acc.Mean.X                
+Time.Body.Acc.Mean.Y               
+Time.Body.Acc.Mean.Z                
+Time.Body.Acc.Sd.X                 
+Time.Body.Acc.Sd.Y                  
+Time.Body.Acc.Sd.Z                 
+Time.Gravity.Acc.Mean.X             
+Time.Gravity.Acc.Mean.Y            
+Time.Gravity.Acc.Mean.Z             
+Time.Gravity.Acc.Sd.X              
+Time.Gravity.Acc.Sd.Y               
+Time.Gravity.Acc.Sd.Z              
+Time.Body.AccJerk.Mean.X           
+Time.Body.AccJerk.Mean.Y           
+Time.Body.AccJerk.Mean.Z            
+Time.Body.AccJerk.Sd.X             
+Time.Body.AccJerk.Sd.Y              
+Time.Body.AccJerk.Sd.Z             
+Time.Body.Gyro.Mean.X               
+Time.Body.Gyro.Mean.Y              
+Time.Body.Gyro.Mean.Z               
+Time.Body.Gyro.Sd.X                
+Time.Body.Gyro.Sd.Y                 
+Time.Body.Gyro.Sd.Z                
+Time.Body.GyroJerk.Mean.X           
+Time.Body.GyroJerk.Mean.Y          
+Time.Body.GyroJerk.Mean.Z           
+Time.Body.GyroJerk.Sd.X            
+Time.Body.GyroJerk.Sd.Y             
+Time.Body.GyroJerk.Sd.Z            
+Time.Body.AccMag.Mean               
+Time.Body.AccMag.Sd                
+Time.Gravity.AccMag.Mean            
+Time.Gravity.AccMag.Sd             
+Time.Body.AccJerkMag.Mean           
+Time.Body.AccJerkMag.Sd            
+Time.Body.GyroMag.Mean              
+Time.Body.GyroMag.Sd               
+Time.Body.GyroJerkMag.Mean          
+Time.Body.GyroJerkMag.Sd           
+Freq.Body.Acc.Mean.X                
+Freq.Body.Acc.Mean.Y               
+Freq.Body.Acc.Mean.Z                
+Freq.Body.Acc.Sd.X                 
+Freq.Body.Acc.Sd.Y                  
+Freq.Body.Acc.Sd.Z                 
+Freq.Body.Acc.MeanFreq.X           
+Freq.Body.Acc.MeanFreq.Y           
+Freq.Body.Acc.MeanFreq.Z            
+Freq.Body.AccJerk.Mean.X           
+Freq.Body.AccJerk.Mean.Y            
+Freq.Body.AccJerk.Mean.Z           
+Freq.Body.AccJerk.Sd.X             
+Freq.Body.AccJerk.Sd.Y             
+Freq.Body.AccJerk.Sd.Z              
+Freq.Body.AccJerk.MeanFreq.X       
+Freq.Body.AccJerk.MeanFreq.Y        
+Freq.Body.AccJerk.MeanFreq.Z       
+Freq.Body.Gyro.Mean.X               
+Freq.Body.Gyro.Mean.Y              
+Freq.Body.Gyro.Mean.Z               
+Freq.Body.Gyro.Sd.X                
+Freq.Body.Gyro.Sd.Y                 
+Freq.Body.Gyro.Sd.Z                
+Freq.Body.Gyro.MeanFreq.X           
+Freq.Body.Gyro.MeanFreq.Y          
+Freq.Body.Gyro.MeanFreq.Z           
+Freq.Body.AccMag.Mean              
+Freq.Body.AccMag.Sd                 
+Freq.Body.AccMag.MeanFreq          
+Freq.Body.Body.AccJerkMag.Mean      
+Freq.Body.Body.AccJerkMag.Sd       
+Freq.Body.Body.AccJerkMag.MeanFreq  
+Freq.Body.Body.GyroMag.Mean        
+Freq.Body.Body.GyroMag.Sd           
+Freq.Body.Body.GyroMag.MeanFreq    
+Freq.Body.Body.GyroJerkMag.Mean     
+Freq.Body.Body.GyroJerkMag.Sd      
+Freq.Body.Body.GyroJerkMag.MeanFreq
