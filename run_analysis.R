@@ -1,6 +1,6 @@
 library(plyr)
 
-setwd("~/Desktop/Coursera/cleaning data/prjoect 2/cleaning_data_project2")
+
 
 # The data is in the current WD in a folder called UCI HAR Dataset
 # Read data in R
