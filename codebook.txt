@@ -18,11 +18,11 @@ From data set: averages.txt
         x.Body.x.x - Body signal
         x.Gravity.x.x.x - Gravity signal
     
-        x.x.Acc.x.x - Acceleration
-        x.x.AccJerk.x.x - Acceleration Speed
+        x.x.Acc.x.x - Accelerometer
+        x.x.AccJerk.x.x - Accelerometer Jerk
     
-        x.x.Gyro.x.x - Angular Acceleration
-        x.x.GyroJerk - Angular Speed
+        x.x.Gyro.x.x - Gyroscope
+        x.x.GyroJerk - Gyroscope Jerk
     
         x.x.xxMag.x - Magnitude
     
